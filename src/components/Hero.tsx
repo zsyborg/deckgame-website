@@ -43,7 +43,7 @@ export function Hero() {
           <div className="p-6 bg-dark/50 border border-gold/30 rounded-lg backdrop-blur hover:border-gold transition">
             <div className="text-4xl mb-3">🃏</div>
             <h3 className="text-xl font-bold text-gold mb-2">Strategic Deck Building</h3>
-            <p className="text-gray-400">Craft the perfect deck with unique cards and powerful synergies</p>
+            <p className="text-gray-400 p-6">Craft the perfect deck with unique cards and powerful synergies</p>
           </div>
 
           <div className="p-6 bg-dark/50 border border-gold/30 rounded-lg backdrop-blur hover:border-gold transition">
