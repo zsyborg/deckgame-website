@@ -23,27 +23,27 @@ export function Hero() {
           Build your legendary deck. Master strategic combat. Become the ultimate champion in a realm of endless possibilities.
         </p>
 
-        <div className="flex flex-col md:flex-row gap-4 justify-center">
+        <div className="flex flex-col md:flex-row gap-4 justify-center py-12 hidden">
           <Link
             href="/play"
-            className="px-10 py-8 bg-gradient-accent text-white font-bold text-lg rounded-lg hover:shadow-2xl hover:shadow-accent/50 transition transform hover:scale-105"
+            className="px-4 my-8 bg-gradient-accent text-white font-bold text-lg rounded-lg hover:shadow-2xl hover:shadow-accent/50 transition transform hover:scale-105"
           >
             Enter the Arena
           </Link>
           <Link
             href="#features"
-            className="px-10 py-8 border-2 border-gold text-gold font-bold text-lg rounded-lg hover:bg-gold/10 transition"
+            className="px-4 my-8 border-2 border-gold text-gold font-bold text-lg rounded-lg hover:bg-gold/10 transition"
           >
             Learn More
           </Link>
         </div>
 
         {/* Feature highlights */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 py-2 mb-12">
           <div className="p-6 bg-dark/50 border border-gold/30 rounded-lg backdrop-blur hover:border-gold transition">
             <div className="text-4xl mb-3">🃏</div>
-            <h3 className="text-xl font-bold text-gold mb-2">Strategic Deck Building</h3>
-            <p className="text-gray-400 p-6">Craft the perfect deck with unique cards and powerful synergies</p>
+            <h3 className="text-xl font-bold text-gold mb-2">Deck Building</h3>
+            <p className="text-gray-400">Craft the perfect deck with unique cards and powerful synergies</p>
           </div>
 
           <div className="p-6 bg-dark/50 border border-gold/30 rounded-lg backdrop-blur hover:border-gold transition">

@@ -3,8 +3,8 @@ export function Gameplay() {
     <section id="gameplay" className="py-20 px-6">
       <div className="max-w-7xl mx-auto">
         <h2 className="font-cinzel text-5xl font-bold text-center mb-16">
-          <span className="bg-gradient-to-r from-gold to-accent bg-clip-text text-transparent">
-            How to Play
+          <span className="bg-gradient-to-r from-gold to-accent bg-clip-text text-amber-50">
+            ⚔️ How to Play ⚔️
           </span>
         </h2>
 

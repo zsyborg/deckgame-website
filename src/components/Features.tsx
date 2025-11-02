@@ -36,8 +36,8 @@ export function Features() {
     <section id="features" className="py-20 px-6">
       <div className="max-w-7xl mx-auto">
         <h2 className="font-cinzel text-5xl font-bold text-center mb-16">
-          <span className="bg-gradient-to-r from-gold to-accent bg-clip-text text-transparent">
-            Game Features
+          <span className="bg-gradient-to-r from-gold to-accent bg-clip-text text-amber-50 py-2">
+            ✨ Game Features ✨
           </span>
         </h2>
 
@@ -45,7 +45,7 @@ export function Features() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="group p-8 bg-dark/50 border border-gold/20 rounded-xl backdrop-blur hover:border-gold/50 transition transform hover:scale-105"
+              className="group p-8 bg-dark/50 border border-gold/20 rounded-xl backdrop-blur hover:border-gold/50 transition transform hover:scale-105 flex flex-col justify-center items-center text-center"
             >
               <div className="text-5xl mb-4 group-hover:animate-float">{feature.icon}</div>
               <h3 className="text-2xl font-bold text-gold mb-3">{feature.title}</h3>

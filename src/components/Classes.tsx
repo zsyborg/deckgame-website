@@ -24,11 +24,11 @@ export function Classes() {
   ]
 
   return (
-    <section id="classes" className="py-20 px-6">
+    <section id="classes" className="px-6">
       <div className="max-w-7xl mx-auto">
         <h2 className="font-cinzel text-5xl font-bold text-center mb-16">
-          <span className="bg-gradient-to-r from-gold to-accent bg-clip-text text-transparent">
-            Choose Your Hero
+          <span className="bg-gradient-to-r from-gold to-accent bg-clip-text text-amber-50">
+            <span className="inline-block transform -scale-x-100">🤺 </span>Choose Your Hero 🤺
           </span>
         </h2>
 
@@ -59,9 +59,9 @@ export function Classes() {
                   </ul>
                 </div>
 
-                <button className="mt-6 w-full py-2 bg-gradient-to-r from-gold to-accent text-white font-bold rounded-lg hover:shadow-lg hover:shadow-gold/50 transition">
+                {/* <button className="mt-6 w-full py-2 bg-gradient-to-r from-gold to-accent text-white font-bold rounded-lg hover:shadow-lg hover:shadow-gold/50 transition">
                   Select {heroClass.name}
-                </button>
+                </button> */}
               </div>
             </div>
           ))}

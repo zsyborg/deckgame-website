@@ -3,8 +3,8 @@ import Link from 'next/link'
 export function Footer() {
   return (
     <footer className="border-t border-gold/20 bg-darker/50 backdrop-blur">
-      <div className="max-w-7xl mx-auto px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+      <div className="max-w-7xl mx-auto px-6 pt-12">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pb-8">
           <div>
             <h3 className="font-cinzel text-xl font-bold text-gold mb-4">Deck Battle</h3>
             <p className="text-gray-400 text-sm">
@@ -43,14 +43,14 @@ export function Footer() {
           </div> */}
         </div>
 
-        <div className="border-t border-gold/20 pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-gray-400">
+        {/* <div className="border-t border-gold/20 pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-gray-400">
           <p>&copy; 2025 Deck Battle</p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            {/* <a href="#" className="hover:text-gold transition">GitHub</a>
+            <a href="#" className="hover:text-gold transition">GitHub</a>
             <a href="#" className="hover:text-gold transition">Support</a>
-            <a href="#" className="hover:text-gold transition">Contact</a> */}
+            <a href="#" className="hover:text-gold transition">Contact</a> 
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   )

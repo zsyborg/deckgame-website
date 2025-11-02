@@ -7,8 +7,9 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-gradient-to-b from-darker via-dark to-transparent">
+    <header className="fixed top-0 w-full z-50 bg-lime-950 navbar">
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        {/* <img src='/navbar1.png' className='absolute w-44' /> */}
         <Link href="/" className="flex items-center gap-2">
           <div className="w-10 h-10 bg-gradient-accent rounded-lg flex items-center justify-center">
             <span className="text-white font-bold text-xl">⚔️</span>
@@ -30,7 +31,7 @@ export function Header() {
         <div className={`absolute md:relative top-full left-0 right-0 md:top-auto bg-darker md:bg-transparent border-b md:border-0 border-gold/20 md:flex gap-8 ${isOpen ? 'block' : 'hidden'}`}>
           <Link href="#features" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Features</Link>
           <Link href="#classes" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Classes</Link>
-          <Link href="#monsters" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Monsters</Link>
+          {/* <Link href="#monsters" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Monsters</Link> */}
           <Link href="#gameplay" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Gameplay</Link>
 
         </div>
