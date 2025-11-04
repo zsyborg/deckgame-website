@@ -14,11 +14,6 @@
   "license": "ISC",
   "packageManager": "pnpm@10.19.0",
   "dependencies": {
-    "@solana/web3.js": "^1.95.3",
-    "@solana/wallet-adapter-base": "^0.9.23",
-    "@solana/wallet-adapter-react": "^0.15.37",
-    "@solana/wallet-adapter-react-ui": "^0.9.42",
-    "@solana/wallet-adapter-wallets": "^0.21.23",
     "@vercel/analytics": "^1.5.0",
     "autoprefixer": "^10.4.21",
     "next": "^16.0.1",
