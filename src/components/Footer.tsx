@@ -7,14 +7,14 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 pb-8">
           <div>
             <h3 className="font-cinzel text-xl font-bold text-gold mb-4">Deck Battle</h3>
-            <p className="text-gray-400 text-sm">
+            <p className="text-white text-sm">
               Experience the ultimate deck-building adventure in a realm of fantasy and strategy.
             </p>
           </div>
 
           <div>
             <h4 className="font-bold text-gold mb-4">Game</h4>
-            <ul className="space-y-2 text-sm text-gray-400">
+            <ul className="space-y-2 text-sm text-white">
               {/* <li><Link href="/play" className="hover:text-gold transition">Play Now</Link></li> */}
               <li><a href="#features" className="hover:text-gold transition">Features</a></li>
               <li><a href="#classes" className="hover:text-gold transition">Characters</a></li>
@@ -25,7 +25,7 @@ export function Footer() {
 
           <div>
             <h4 className="font-bold text-gold mb-4">Community</h4>
-            <ul className="space-y-2 text-sm text-gray-400">
+            <ul className="space-y-2 text-sm text-white">
               <li><a href="#" className="hover:text-gold transition">Discord (Coming 2026)</a></li>
               <li><a href="https://t.me/shodensol" className="hover:text-gold transition">Telegram</a></li>
               <li><a href="https://x.com/shodensol" className="hover:text-gold transition">X</a></li>
