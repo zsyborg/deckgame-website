@@ -15,7 +15,7 @@ export function Footer() {
           <div>
             <h4 className="font-bold text-gold mb-4">Game</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><Link href="/play" className="hover:text-gold transition">Play Now</Link></li>
+              {/* <li><Link href="/play" className="hover:text-gold transition">Play Now</Link></li> */}
               <li><a href="#features" className="hover:text-gold transition">Features</a></li>
               <li><a href="#classes" className="hover:text-gold transition">Characters</a></li>
               <li><a href="#monsters" className="hover:text-gold transition">Monsters</a></li>
