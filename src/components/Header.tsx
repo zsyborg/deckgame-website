@@ -15,7 +15,7 @@ export function Header() {
             <span className="text-white font-bold text-xl">⚔️</span>
           </div>
           <span className="hidden md:block font-cinzel text-2xl font-bold bg-gradient-to-r from-gold to-accent bg-clip-text text-transparent">
-            Deck Battle
+            Shoden
           </span>
         </Link>
 
@@ -33,12 +33,13 @@ export function Header() {
           <Link href="#classes" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Classes</Link>
           {/* <Link href="#monsters" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Monsters</Link> */}
           <Link href="#gameplay" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Gameplay</Link>
+          <Link href="#roadmap" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Roadmap</Link>
 
         </div>
 
-        <Link href="/play" className="hidden md:block px-6 py-2 bg-gradient-accent rounded-lg text-white font-bold hover:shadow-lg hover:shadow-accent/50 transition">
+        {/* <Link href="/play" className="hidden md:block px-6 py-2 bg-gradient-accent rounded-lg text-white font-bold hover:shadow-lg hover:shadow-accent/50 transition">
           Play Now
-        </Link>
+        </Link> */}
       </nav>
     </header>
   )

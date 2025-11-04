@@ -15,7 +15,7 @@ export function Hero() {
       <div className="max-w-4xl mx-auto text-center flex flex-col items-center justify-items-center justify-center relative z-20">
         <h1 className="font-cinzel text-6xl md:text-7xl mb-6">
           <span className="bg-gradient-to-r from-gold via-accent to-gold bg-clip-text text-transparent animate-glow">
-            Deck Battle
+            Shoden
           </span>
         </h1>
 

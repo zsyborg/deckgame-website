@@ -5,6 +5,7 @@ import { Classes } from '@/components/Classes'
 import { Monsters } from '@/components/Monsters'
 import { Gameplay } from '@/components/Gameplay'
 import { Footer } from '@/components/Footer'
+import Roadmap from '@/components/Roadmap'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Classes />
       {/* <Monsters /> */}
       <Gameplay />
+      <Roadmap />
       <Footer />
     </main>
   )
