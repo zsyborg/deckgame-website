@@ -26,9 +26,9 @@ export function Footer() {
           <div>
             <h4 className="font-bold text-gold mb-4">Community</h4>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li><a href="#" className="hover:text-gold transition">Discord</a></li>
-              <li><a href="#" className="hover:text-gold transition">Twitter</a></li>
-              <li><a href="#" className="hover:text-gold transition">Telegram</a></li>
+              <li><a href="#" className="hover:text-gold transition">Discord (Coming 2026)</a></li>
+              <li><a href="https://t.me/shodensol" className="hover:text-gold transition">Twitter</a></li>
+              <li><a href="https://x.com/shodensol" className="hover:text-gold transition">Telegram</a></li>
               {/* <li><a href="#" className="hover:text-gold transition">Reddit</a></li> */}
             </ul>
           </div>
