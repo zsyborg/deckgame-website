@@ -88,7 +88,7 @@ const Roadmap = () => {
               {/* Content */}
               <div className={`w-full md:w-1/2 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
                 <div className="bg-gray-800 rounded-lg p-4 md:p-6 shadow-lg transform hover:scale-105 transition-transform duration-300">
-                  <h3 className="text-lg md:text-2xl font-bold text-blue-400 mb-3 md:mb-4">{phase.phase}</h3>
+                  <h3 className="text-lg md:text-2xl font-bold text-blue-400 mb-3 md:mb-4 pt-8">{phase.phase}</h3>
                   <div className="space-y-4">
                     {phase.milestones.map((milestone) => (
                       <div key={milestone.title} className="border-l-4 border-blue-500 pl-4">
