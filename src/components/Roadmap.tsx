@@ -83,11 +83,11 @@ const Roadmap = () => {
               }`}
             >
               {/* Phase indicator */}
-              <div className="absolute md:left-1/2 left-4 transform md:-translate-x-1/2 w-6 h-6 md:w-8 md:h-8 bg-blue-500 rounded-full border-4 border-black z-10" />
+              <div className="absolute md:left-1/2 left-4 transform md:-translate-x-1/2 w-6 h-6 md:w-8 md:h-8 bghead rounded-full border-4 border-black z-10" />
               
               {/* Content */}
               <div className={`w-full md:w-1/2 ${index % 2 === 0 ? 'md:pr-12' : 'md:pl-12'}`}>
-                <div className="bg-gray-800 rounded-lg p-4 md:p-6 shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <div className="bghead rounded-lg p-4 md:p-6 shadow-lg transform hover:scale-105 transition-transform duration-300">
                   <h3 className="text-lg md:text-2xl font-bold text-blue-400 mb-3 md:mb-4 pt-8">{phase.phase}</h3>
                   <div className="space-y-4">
                     {phase.milestones.map((milestone) => (
