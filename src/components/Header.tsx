@@ -31,7 +31,7 @@ export function Header() {
           <span className={`block absolute w-6 h-0.5 bg-current transform transition duration-300 ease-in-out ${isOpen ? 'translate-y-0 -rotate-45' : 'translate-y-2'}`} />
         </button>
 
-        <div className={`absolute md:relative top-full left-0 right-0 md:top-auto bghead border-b border-t border-amber-600 md:flex gap-8 overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-96' : 'max-h-0 md:max-h-full'}`}>
+        <div className={`absolute md:relative top-full left-0 right-0 md:top-auto md:flex gap-8 overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-96' : 'max-h-0 md:max-h-full'}`}>
           <Link href="#features" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Features</Link>
           <Link href="#classes" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Classes</Link>
           {/* <Link href="#monsters" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Monsters</Link> */}
