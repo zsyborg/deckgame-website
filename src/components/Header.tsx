@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-
+import { FaTelegram, FaXTwitter } from 'react-icons/fa6'
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -20,20 +20,25 @@ export function Header() {
         </Link>
 
         <button
-          className="md:hidden text-gold"
+          className="md:hidden text-gold relative z-50 flex items-center justify-center w-8 h-8"
           onClick={() => setIsOpen(!isOpen)}
+          aria-label={isOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={isOpen}
         >
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
+          {/* Animated hamburger: 3 bars that morph into an X */}
+          <span className={`block absolute w-6 h-0.5 bg-current transform transition duration-300 ease-in-out ${isOpen ? 'translate-y-0 rotate-45' : '-translate-y-2'}`} />
+          <span className={`block absolute w-6 h-0.5 bg-current transform transition-opacity duration-200 ease-in-out ${isOpen ? 'opacity-0' : 'opacity-100'}`} />
+          <span className={`block absolute w-6 h-0.5 bg-current transform transition duration-300 ease-in-out ${isOpen ? 'translate-y-0 -rotate-45' : 'translate-y-2'}`} />
         </button>
 
-        <div className={`absolute md:relative top-full left-0 right-0 md:top-auto bg-darker md:bg-transparent border-b md:border-0 border-gold/20 md:flex gap-8 ${isOpen ? 'block' : 'hidden'}`}>
+        <div className={`absolute md:relative top-full left-0 right-0 md:top-auto bghead border-b border-t border-amber-600 md:flex gap-8 overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-96' : 'max-h-0 md:max-h-full'}`}>
           <Link href="#features" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Features</Link>
           <Link href="#classes" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Classes</Link>
           {/* <Link href="#monsters" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Monsters</Link> */}
           <Link href="#gameplay" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Gameplay</Link>
           <Link href="#roadmap" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0">Roadmap</Link>
+            <Link href="https://t.me/shodensol" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0"><FaTelegram /></Link>
+            <Link href="https://x.com/shodensol" className="block md:inline text-gray-300 hover:text-gold transition px-6 py-2 md:px-0 md:py-0"><FaXTwitter /></Link>
 
         </div>
 

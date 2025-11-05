@@ -95,7 +95,11 @@ body {
   box-shadow: 4px 4px 16px black;
 }
 
-
+.bghead{
+  /* background-color: black; */
+  background: url('/plastered_stone_wall_diff_1k.jpg');
+  background-repeat: repeat;
+}
 
 
 /* 
